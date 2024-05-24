@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,16 +13,16 @@
 
 </head>
 
-<body class="dark:bg-[#191919]">
+<body class="bg-[#191919]">
     <?php
     include './components/header.php';
     ?>
 
-    <div class="flex items-center justify-center h-screen dark:bg-[#191919]">
+    <div class="flex items-center justify-center h-screen bg-[#191919]">
         <img class="h-screen" src="./components/bg.png" alt="">
     </div>
 
-    <section class="dark:bg-[#191919] py-20">
+    <section class="bg-[#191919] py-20">
         <div class="max-w-screen-md mx-auto px-4">
             <h1 class="text-4xl font-bold text-center mb-6 text-[#CAC7BD]">Welcome to Our Website</h1>
             <p class="text-[#CAC7BD] text-center mb-8">

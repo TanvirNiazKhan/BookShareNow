@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="dark:bg-gray-700">
+<body class="  bg-[#191919]">
     <?php
     include  "./components/header.php";;
     ?>
-    <div class="bg-white py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24 dark:bg-gray-700 h-screen">
+    <div class=" py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24   bg-[#191919] h-screen">
         <div class="relative max-w-xl mx-auto">
             <svg class="absolute left-full transform translate-x-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404" aria-hidden="true">
                 <defs>
@@ -36,28 +36,28 @@
                 <rect width="404" height="404" fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)" />
             </svg>
             <div class="text-center">
-                <h2 class="text-3xl leading-9 font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 dark:text-white">
+                <h2 class="text-3xl leading-9 font-bold tracking-tight  sm:text-4xl sm:leading-10   text-[#cac7bd]">
                     About Our Book Sharing Community
                 </h2>
-                <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl dark:text-slate-500	">
+                <p class="mt-3 max-w-md mx-auto text-base  sm:text-lg md:mt-5 md:text-xl md:max-w-3xl   text-[#cac7bd]	">
                     We are a community of book lovers who believe in the power of reading and the value of shared stories. Our mission is to create a platform where everyone can share their physical books with others.
                 </p>
             </div>
         </div>
         <div class="text-center mt-12">
-            <h2 class="text-3xl leading-9 font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 dark:text-white">
+            <h2 class="text-3xl leading-9 font-bold tracking-tight  sm:text-4xl sm:leading-10   text-[#cac7bd]">
                 Contact Us
             </h2>
-            <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl dark:text-slate-500">
+            <p class="mt-3 max-w-md mx-auto text-base  sm:text-lg md:mt-5 md:text-xl md:max-w-3xl   text-[#cac7bd]">
                 We'd love to hear from you! Send us a message or follow us on social media.
             </p>
             <div class="mt-8">
-                <a href="mailto:info@bookshare.com" class="text-blue-600 hover:text-blue-900">info@bookshare.com</a>
+                <a href="mailto:info@bookshare.com" class="text-[#cac7bd] hover:text-[#cac7bd]">info@bookshare.com</a>
             </div>
             <div class="mt-6">
-                <a href="https://www.facebook.com/bookshare" class="text-blue-600 hover:text-blue-900 mx-2">Facebook</a>
-                <a href="https://www.twitter.com/bookshare" class="text-blue-600 hover:text-blue-900 mx-2">Twitter</a>
-                <a href="https://www.instagram.com/bookshare" class="text-blue-600 hover:text-blue-900 mx-2">Instagram</a>
+                <a href="https://www.facebook.com/bookshare" class="text-[#cac7bd] hover:text-blue-900 mx-2">Facebook</a>
+                <a href="https://www.twitter.com/bookshare" class="text-[#cac7bd] hover:text-blue-900 mx-2">Twitter</a>
+                <a href="https://www.instagram.com/bookshare" class="text-[#cac7bd] hover:text-blue-900 mx-2">Instagram</a>
             </div>
         </div>
     </div>

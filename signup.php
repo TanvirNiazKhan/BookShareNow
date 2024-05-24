@@ -104,35 +104,35 @@ if ($showAlert) {
                         <label for="Name" class="block mb-2 text-sm font-medium text-[#cac7bd]">
                             Name
                         </label>
-                        <input type="text" name="Name" id="Name" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5   dark:text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="name" required />
+                        <input type="text" name="Name" id="Name" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5      focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="name" required />
                     </div>
 
                     <div>
                         <label for="Email" class="block mb-2 text-sm font-medium text-[#cac7bd]">
                             Email
                         </label>
-                        <input type="email" name="Email" id="Email" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5   dark:text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="name@company.com" required />
+                        <input type="email" name="Email" id="Email" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5      focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="name@company.com" required />
                     </div>
 
                     <div>
                         <label for="Phone" class="block mb-2 text-sm font-medium text-[#cac7bd]">
                             Phone
                         </label>
-                        <input type="phone" name="Phone" id="phone" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5   dark:text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="+880 1*********" required />
+                        <input type="phone" name="Phone" id="phone" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5      focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="+880 1*********" required />
                     </div>
 
                     <div>
                         <label for="Password1" class="block mb-2 text-sm font-medium text-[#cac7bd]">
                             Password
                         </label>
-                        <input type="password" name="Password1" id="Password1" placeholder="••••••••" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5   dark:text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" required />
+                        <input type="password" name="Password1" id="Password1" placeholder="••••••••" class="bg-[#cac7bd] border border-[#cac7bd]  text-sm rounded-lg block w-full p-2.5     text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" required />
                     </div>
 
                     <div>
                         <label for="Password2" class="block mb-2 text-sm font-medium text-[#cac7bd]">
                             Confirm Password
                         </label>
-                        <input type="password" name="Password2" id="Password2" placeholder="••••••••" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5   dark:text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" required />
+                        <input type="password" name="Password2" id="Password2" placeholder="••••••••" class="bg-[#cac7bd] border border-[#cac7bd]  text-sm rounded-lg block w-full p-2.5     text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" required />
                     </div>
 
                     <h5 class="text-md font-medium text-[#cac7bd] text-center pt-3">ADDRESS</h5>
@@ -141,21 +141,21 @@ if ($showAlert) {
                         <label for="Road" class="block mb-2 text-sm font-medium text-[#cac7bd]">
                             Road
                         </label>
-                        <input type="text" name="Road" id="Road" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5   dark:text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="name" required />
+                        <input type="text" name="Road" id="Road" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5      focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="name" required />
                     </div>
                     <div class="grid grid-cols-2 gap-4">
                         <div>
                             <label for="City" class="block mb-2 text-sm font-medium text-[#cac7bd]">
                                 City
                             </label>
-                            <input type="text" name="City" id="City" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5   dark:text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="name" required />
+                            <input type="text" name="City" id="City" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5      focus:ring-[#cac7bd] focus:border-[#cac7bd]" placeholder="name" required />
                         </div>
 
                         <div>
                             <label for="District" class="block mb-2 text-sm font-medium text-[#cac7bd]">
                                 District
                             </label>
-                            <select name="District" id="District" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5   dark:text-[#191919] focus:ring-[#cac7bd] focus:border-[#cac7bd]" required>
+                            <select name="District" id="District" class="bg-[#cac7bd] border border-[#cac7bd] text-[#191919] text-sm rounded-lg block w-full p-2.5      focus:ring-[#cac7bd] focus:border-[#cac7bd]" required>
                                 <option value="">Select a district</option>
                                 <option value="district1">District 1</option>
                                 <option value="district2">District 2</option>
@@ -168,14 +168,14 @@ if ($showAlert) {
                     <div class="flex items-start">
                         <div class="flex items-start">
                         </div>
-                        <a href="#" class="ms-auto text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>
+                        <a href="#" class="ms-auto text-sm text-blue-700 hover:underline   ">Lost Password?</a>
                     </div>
 
 
                     <button type="submit" class="w-full  hover:bg-[#cac7bd] focus:ring-4 focus:outline-none border-2 border-[#cac7bd] text-[#cac7bd] hover:text-[#191919] font-medium rounded-lg text-sm px-5 py-2.5 text-center">REGISTER</button>
 
-                    <div class="text-sm font-medium text-gray-500 dark:text-gray-300 p-4">
-                        Already registered? <a href="#" class="text-blue-700 hover:underline dark:text-blue-500" onclick="location.href='login.php'">Log in</a>
+                    <div class="text-sm font-medium    text-gray-300 p-4">
+                        Already registered? <a href="#" class="text-blue-700 hover:underline   " onclick="location.href='login.php'">Log in</a>
                     </div>
                 </form>
             </div>
