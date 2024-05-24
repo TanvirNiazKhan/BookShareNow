@@ -50,10 +50,10 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     }
     ?>
 
-    <div class="bg-[#cac7bd] text-[#191919] py-2 px-4 text-right">
+    <!-- <div class="bg-[#cac7bd] text-[#191919] py-2 px-4 text-right">
         <p>Logged in as: <?php echo htmlspecialchars($user['name']); ?></p>
         <p>Phone: <?php echo htmlspecialchars($user['phone']); ?></p>
-    </div>
+    </div> -->
 
     <?php
     if ($showAlert) {

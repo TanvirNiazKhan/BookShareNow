@@ -40,7 +40,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <div class="p-5 bg-cover bg-center h-screen" style="background-image: url('./components/dashboard_back.png'); ">
         <section class=" p-6 ">
             <!-- header for the table  -->
-            <h2 class="text-3xl leading-9  tracking-tight text-center my-4 sm:text-4xl sm:leading-10 text-[#cac7bd] p-4">
+            <h2 class="text-3xl leading-9  tracking-tight text-center my-4 sm:text-4xl sm:leading-10 text-white p-4">
                 YOUR CONTRIBUTION TO THE COMMUNITY
             </h2>
             <div class="relative overflow-x-auto w-2/3 mx-auto">
@@ -65,6 +65,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                             <th scope="col" class="px-6 py-3">
                                 Location
                             </th>
+                            <th scope="col" class="px-6 py-3">
+                                Actions
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -72,16 +75,26 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                         if ($result_books->num_rows > 0) {
                             while($row = $result_books->fetch_assoc()) {
                                 echo "<tr class='border-b border-[#cac7bd]'>";
-                                echo "<th scope='row' class='px-6 py-4 font-medium text-[#cac7bd] whitespace-nowrap'>{$row['name']}</th>";
-                                echo "<td class='px-6 py-4'>{$row['author']}</td>";
-                                echo "<td class='px-6 py-4'>{$row['category']}</td>";
-                                echo "<td class='px-6 py-4'>{$row['published_year']}</td>";
-                                echo "<td class='px-6 py-4'>{$row['edition']}</td>";
-                                echo "<td class='px-6 py-4'>{$row['location']}</td>";
+                                echo "<th scope='row' class='px-6 py-4 font-medium text-white whitespace-nowrap'>{$row['name']}</th>";
+                                echo "<td class='px-6 py-4 text-white text-lg'>{$row['author']}</td>";
+                                echo "<td class='px-6 py-4 text-white text-lg'>{$row['category']}</td>";
+                                echo "<td class='px-6 py-4 text-white text-lg'>{$row['published_year']}</td>";
+                                echo "<td class='px-6 py-4 text-white text-lg'>{$row['edition']}</td>";
+                                echo "<td class='px-6 py-4 text-white text-lg'>{$row['location']}</td>";
+                                echo "<td class='px-6 py-4 text-white text-lg'>";
+                                echo "<form method='POST' action='delete_book.php' style='display:inline;'>";
+                                echo "<input type='hidden' name='book_id' value='{$row['id']}' />";
+                                echo "<button type='submit' class='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-3 rounded'>Delete</button>";
+                                echo "</form>";
+                                echo "<form method='GET' action='update_book.php' style='display:inline; margin-left: 10px;'>";
+                                echo "<input type='hidden' name='book_id' value='{$row['id']}' />";
+                                echo "<button type='submit' class='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded'>Update</button>";
+                                echo "</form>";
+                                echo "</td>";
                                 echo "</tr>";
                             }
                         } else {
-                            echo "<tr class='border-b border-[#cac7bd]'><td colspan='6' class='px-6 py-4 text-center'>No books found</td></tr>";
+                            echo "<tr class='border-b border-[#cac7bd]'><td colspan='7' class='px-6 py-4 text-center'>No books found</td></tr>";
                         }
                         ?>
                     </tbody>

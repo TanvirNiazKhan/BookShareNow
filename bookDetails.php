@@ -12,7 +12,6 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-</head>
 
 <body class="bg-[#191919]">
 
@@ -33,12 +32,10 @@
 
     <div class="bg-[#191919] py-8 h-screen">
         <div class="container mx-auto">
-
-
             <div class="flex items-start">
                 <!-- Book image -->
                 <div class="w-1/2 pr-8">
-                    <img src="" class=" rounded-lg shadow-md">
+                    <img src="" class="rounded-lg shadow-md">
                 </div>
 
                 <!-- Book details -->
@@ -49,6 +46,7 @@
                     <p class="text-[#cac7bd] mb-2">Published: <?php echo $book['published_year']; ?></p>
                     <p class="text-[#cac7bd] mb-2">Owner: <?php echo $book['owner_name']; ?></p>
                     <p class="text-[#cac7bd] mb-2">Location: <?php echo $book['location']; ?></p>
+                    <p class="text-[#cac7bd] mb-2">Phone Number: <?php echo $book['owner_phone']; ?></p>
                     <p class="text-[#cac7bd] mb-2">Availability: <?php echo $book['availability'] ? 'Available' : 'Not Available'; ?></p>
 
                     <!-- Buttons -->
