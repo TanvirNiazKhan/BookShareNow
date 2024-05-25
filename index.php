@@ -26,8 +26,6 @@
         <div class="max-w-screen-md mx-auto px-4">
             <h1 class="text-4xl font-bold text-center mb-6 text-[#CAC7BD]">Welcome to Our Website</h1>
             <p class="text-[#CAC7BD] text-center mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut risus in
-                augue luctus tincidunt.
             </p>
             <div class="flex justify-center">
                 <button class="bg-[#CAC7BD] hover:bg-[#b3aea0] text-[#191919] font-bold py-2 px-4 rounded" onclick="window.location.href = 'signup.php'">
